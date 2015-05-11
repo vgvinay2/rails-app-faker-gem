@@ -7,6 +7,17 @@ class CreateUsers < ActiveRecord::Migration
       t.integer :age
       t.text :address
 
+
+
+
+
+
+      task default: %w[test]
+      Rake::Task
+
+
+
+
       t.timestamps null: false
     end
   end
